@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html{
-    font-family:  "Quicksand", sans-serif; Arial, Helvetica, sans-serif;
+    font-family:  "Quicksand", sans-serif, Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background: #231942;
     color: #e0b1cb;
@@ -30,7 +30,7 @@ p, ol, ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#second {
+p.credit {
     font-style: italic;
     font-size: 0.8rem;
 }
