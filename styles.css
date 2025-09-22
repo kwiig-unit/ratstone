@@ -1,0 +1,41 @@
+
+html{
+    font-family:  "Quicksand", sans-serif; Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #231942;
+    color: #e0b1cb;
+}
+
+a:link {
+    color: #9f86c0;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #b58da8;
+}
+
+a:hover {
+    color: #be95c4;
+}
+
+header {
+    background-color: #170f41e1;
+}
+
+body {
+    font-size: 15px;
+} 
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffcad4;
+}
+
+#second {
+    font-style: italic;
+}
+
+h1, h2 {
+    color: #be95c4;
+}
