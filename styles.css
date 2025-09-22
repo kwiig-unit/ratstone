@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html{
     font-family:  "Quicksand", sans-serif; Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -18,7 +21,7 @@ a:hover {
     color: #816d9b;
 }
 
-header {
+header, footer {
     background-color: #170f41e1;
     padding: 0.2em;
 }
@@ -36,14 +39,16 @@ h1 {
     color: #ffe5d9;
     border: 2px dashed #9f86c0;
     width: 50%;
-    padding: 0.5em;
+    padding: 0.5em 0.5em 0.5em;
 }
 
 h2 {
     color: #d8e2dc;
 }
 
-footer {
-    background-color: #170f41e1;
-    padding: 0.2em;
+.container {
+    background-color: #0000005f;
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    width: 50%;
 }
