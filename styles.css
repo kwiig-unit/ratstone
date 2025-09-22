@@ -1,4 +1,10 @@
 
+* {
+    margin: 2;
+    padding: 1;
+    box-sizing: border-box;
+}
+
 html{
     font-family:  "Quicksand", sans-serif; Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -21,33 +27,30 @@ a:hover {
 
 header {
     background-color: #170f41e1;
+    padding: 0.2em;
 }
 
-body {
-    font-size: 15px;
-} 
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-ol {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-ul {
+p, ol, ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #second {
     font-style: italic;
-    font-size: 10px;
+    font-size: 0.8rem;
 }
 
 h1 {
     color: #ffe5d9;
+    border: 2px dashed #9f86c0;
+    width: 50%;
+    padding: 0.5em;
 }
 
 h2 {
     color: #d8e2dc;
+}
+
+footer {
+    background-color: #170f41e1;
+    padding: 0.2em;
 }
