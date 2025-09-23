@@ -1,8 +1,15 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
-html{
-    font-family:  "Quicksand", sans-serif, Arial, Helvetica, sans-serif;
+
+img {
+    display: block; /* image in line with box - no fake margins */
+}
+
+html {
+    font-family:  "Quicksand", sans-serif, Arial, Helvetica, sans-serif; /* listed fonts in case the first choice doesn't work */
     line-height: 1.5;
     background: #231942;
     color: #e0b1cb;
@@ -23,11 +30,12 @@ a:hover {
 
 header, footer {
     background-color: #170f41e1;
-    padding: 0.2em;
+    padding: 0.5em;
 }
 
-p, ol, ul {
+p.special, ol, ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 24px;
 }
 
 p.credit {
@@ -37,18 +45,58 @@ p.credit {
 
 h1 {
     color: #ffe5d9;
-    border: 2px dashed #9f86c0;
+    border: 5px outset #9f86c0;
     width: 50%;
-    padding: 0.5em 0.5em 0.5em;
+    padding: 0.5em;
+    margin: 1em;
 }
 
 h2 {
     color: #d8e2dc;
+    padding: 24px;
 }
 
 .container {
     background-color: #0000005f;
-    margin: 1.5em 1.5em 1.5em 1.5em;
-    padding: 1.5em 1.5em 1.5em 1.5em;
+    margin: 1.5em;
+    padding: 1.5em;
     width: 50%;
+}
+
+.outer-container {
+    border: 3px dashed #d8e2dc;
+    width: 75vw;
+    height: 110vh;
+    margin: 40px 100px;
+}
+
+.inner-container {
+    border: 2px;
+    margin: 1em 1.5em;
+}
+
+.hero {
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.rat-pic-figure {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
+.rat-pic-figure img {
+    width: auto;
+    height: 100%;
+    min-width: 100px;
+    margin-left: -15px;
 }
