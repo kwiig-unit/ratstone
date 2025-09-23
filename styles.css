@@ -40,7 +40,7 @@ header p {
 }
 
 body {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 p.special, ol, ul {
@@ -65,27 +65,27 @@ h1 {
 /* about page h1 */
 main h1 { 
     border: 3px solid #0000005f;
-    border-radius: 1em;
+    border-radius: 20px;
 } 
 
 h2 {
     color: #d8e2dc;
     padding: 24px;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 h3 {
     color: #d8e2dc;
     padding: 24px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     text-align: center;
 }
 
 h4 {
     color: #d8e2dc;
-    padding: 24px;
+    padding: 26px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -98,7 +98,7 @@ p {
     border: 3px solid #0000005f;
     width: 50vw;
     margin: 40px 100px;
-    border-radius: 5%;
+    border-radius: 20px;
     min-width: 50vw;
 }
 
@@ -112,8 +112,8 @@ p {
     background-color: #0000005f;
     margin: 1.5em;
     padding: 1.5em;
-    width: 40%;
-    border-radius: 10%;
+    width: 55%;
+    border-radius: 20px;
 }
 
 .container2 {
@@ -128,7 +128,7 @@ p {
     padding: 3em;
     width: 50vw;
     min-width: 50vw;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .hero {
