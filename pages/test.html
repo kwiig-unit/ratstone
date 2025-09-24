@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rat test</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-            <div>
-                <div id="header">
+     <header>
+            <div id="header">
                 <nav>
-                    <a href="../index.html">Home</a>
+                    <p><a href="../index.html">Home</a>
+                    <a href="#footer">Bottom of page</a></p>
                 </nav>
             </div>
+        </header>
+        <div>
             <h1>Photos</h1>
-    </header>
+        </div>
     <section class="hero">
         <figure class="rat-pic-figure">
             <img
@@ -30,22 +35,25 @@
             <span class="nowrap">I'm rat.</span>
         </h2>
     </section>
-    <footer>
-        <p> 
-        <div>
-            <!--below is an example of an absolute path (URL - full image address) -->
-            <img 
-                src="https://images.pexels.com/photos/7008914/pexels-photo-7008914.jpeg?_gl=1*1dz48ng*_ga*MTEzNDQ0MjUyMC4xNzU4MjE1OTYw*_ga_8JE65Q40S6*czE3NTgyOTc2ODYkbzIkZzEkdDE3NTgyOTk0NDckajU3JGwwJGgw" 
-                alt="rat with a rose"
-                width="30%" 
-                height="30%"
-            />
-            <p class="credit">
-                Image courtesy of <a href="https://www.pexels.com" target="_blank">pexels.com</a>
-            </p>
-            <p><a href="#header">Return to top</a></p>
-        </div>
-        </p>
+     <footer id="footer">
+            <div>
+                <!--below is an example of an absolute path (URL - full image address) -->
+                <section class="hero">
+                    <figure class="rat-rose-figure">
+                        <img 
+                            src="https://images.pexels.com/photos/7008914/pexels-photo-7008914.jpeg?_gl=1*1dz48ng*_ga*MTEzNDQ0MjUyMC4xNzU4MjE1OTYw*_ga_8JE65Q40S6*czE3NTgyOTc2ODYkbzIkZzEkdDE3NTgyOTk0NDckajU3JGwwJGgw" 
+                            alt="rat with a rose"
+                            width="50%" 
+                            height="50%"
+                        />
+                    </figure>
+                </section>
+                <p class="credit">
+                    Images courtesy of <a href="https://www.pexels.com" target="_blank">pexels.com</a>
+                </p>
+                <a href="#header">Return to top</a>
+            </div>
+        </footer>
     </footer>
 </body>
 </html>
