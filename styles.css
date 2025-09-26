@@ -30,10 +30,42 @@ a:hover {
     color: #816d9b;
 }
 
-header, footer {
+.button {
+    border: 4px outset #816d9b;
+    padding: 0.2em;
+    margin: 0 0.3em;
+    flex: 1;
+    border-radius: 10px;
+    max-width: 15%;
+    text-align: center;
+    background-image: url(./assets/moroccan-flower-dark.png);
+    box-shadow: inset 0 0 0 2000px #231942c5;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+header {
+    background-color: #231942;
+    border-bottom: 5px outset #9f86c0;
+    padding: 0.5em;
+}
+
+footer {
     background-color: #231942;
     border: 5px outset #9f86c0;
     padding: 0.5em;
+}
+
+footer div {
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
 }
 
 body {
@@ -166,7 +198,9 @@ div.gallery {
 div.gallery-item {
   margin: 5px auto;
   background-color: #231942;
-    border: 5px solid #9f86c0;
+  background-image: url(./assets/moroccan-flower-dark.png);
+  box-shadow: inset 0 0 0 2000px #231942c5;
+  border: 5px solid #9f86c0;
   width: 30%;
   border-radius: 20px;
   overflow: hidden;
@@ -183,11 +217,8 @@ div.gallery-item div.desc {
 }
 
 .photos {
-    background-color: #170f4184;
-    background-image: url(./assets/moroccan-flower-dark.png);
-    box-shadow: inset 0 0 0 2000px #231942c5;
-    background-repeat: repeat;
-    background-position: center;
+    background-color: #170f416c;
+    border: 10px double #170f41;
     margin: 2em auto;
     padding: 3em;
     width: 80vw;
