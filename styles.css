@@ -11,18 +11,19 @@ img {
 
 html {
     font-family:  "Quicksand", sans-serif, Arial, Helvetica, sans-serif; /* listed fonts in case the first choice doesn't work */
+    font-style: bold;
     line-height: 1.5;
     background: #231942;
     color: #e0b1cb;
 }
 
 a:link {
-    color: #9f86c0;
+    color: #e0b1cb;
     font-weight: bold;
 }
 
 a:visited {
-    color: #816d9b;
+    color: #ea89bd;
 }
 
 a:hover {
@@ -30,48 +31,27 @@ a:hover {
 }
 
 header, footer {
-    background-color: #170f41;
+    background-color: #231942;
     border: 5px outset #9f86c0;
     padding: 0.5em;
 }
 
-header p {
-    font-weight: bold;
-}
-
 body {
-    font-size: 18px;
+    font-size: 22px;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/sun-pattern.png);
+    box-shadow: inset 0 0 0 2000px #231942c5;
     background-repeat: repeat;
     background-position: center;
 }
 
-p.special, ol, ul {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 24px;
-    margin: 0 0 0 2.5em;
-}
-
-p.credit {
-    font-style: italic;
-    font-size: 0.8rem;
-}
-
 h1 {
-    color: #170f41;
+    color: #d8e2dc;
     width: 50%;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 0.5em;
     font-size: 36px;
     font-weight: bold;
-    margin: 40px 100px;
+    margin: 40px 0 40px 30px;
 }
-
-/* rat care page h1 */
-main h1 { 
-    border: 3px solid #0000005f;
-    border-radius: 20px;
-    margin: 2em auto;
-} 
 
 h2 {
     color: #d8e2dc;
@@ -92,75 +72,54 @@ h3 {
 h4 {
     color: #d8e2dc;
     padding: 26px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
+    text-align: center;
 }
 
-p {
+p, ol, ul {
     line-height: 2;
+    font-family: "GFS Didot", serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 24px;
+    margin: 0 0 0 2.5em;
+}
+
+p.credit {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 .outer-container {
-    border: 3px double #170f41;
-    background-color: #170f41;
-    width: 50vw;
+    border: 10px double #170f41;
+    background-color: #170f416c;
+    width: 60vw;
     margin: 2em auto;
     border-radius: 20px;
     min-width: 50vw;
 }
 
-.inner-container {
-    border: 2px;
-    margin: 0 auto;
-    min-width: 100vw;
-}
-
 .container {
-    background-color: #000000d3;
+    background-color: #170f4184;
+    background-image: url(./assets/moroccan-flower-dark.png);
+    box-shadow: inset 0 0 0 2000px #231942c5;
+    background-repeat: repeat;
+    background-position: center;
     margin: 2em auto;
     padding: 1.5em;
-    width: 70%;
+    width: 80%;
     border-radius: 20px;
 }
 
 .container-2 {
-    margin: 2em auto;
-    padding: 1.5em;
     width: 50%;
 }
 
-.container-3 {
-    background-color: #000000d3;
-    margin: 2em auto;
-    padding: 3em;
-    width: 50vw;
-    min-width: 50vw;
-    border-radius: 20px;
-}
-
-.hero {
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-}
-
-.rat-pic-figure {
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    border: 5px double #9f86c0;
-    border-radius: 50%;
-}
-
-.rat-pic-figure img {
-    width: auto;
-    height: 100%;
-    min-width: 100px;
-    margin-left: -15px;
+.video {
+    margin: 50px 20%;
 }
 
 .rat-rose-figure {
@@ -180,16 +139,53 @@ p {
     margin-top: -40px;
 }
 
-.assignment-8 {
-    background-color: #0000005f;
-    max-width: 50%;
+.banner {
+    background-color: #170f4184;
     margin: 0 auto;
+    padding: 3em;
+    min-width: 50vw;
+    height: 30vh;
+    background-image: url(./assets/rat4.jpg);
+    background-size: cover;
+    background-position: bottom -400px right;
+}
+
+.banner-box {
+    background-color: #170f41cb;
+    width: 200px;
+    min-width: 25vw;
     border-radius: 20px;
 }
 
-#lesson-8 {
-    border: 5px dotted aquamarine;
-    max-width: 40vw;
-    margin: 0 auto;
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px auto;
+  border: 5px solid #231942;
+  width: 30%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.photos {
+    background-color: #170f4184;
+    margin: 2em auto;
+    padding: 3em;
+    width: 80vw;
+    min-width: 50vw;
     border-radius: 20px;
 }
